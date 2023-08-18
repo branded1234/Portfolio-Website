@@ -1,0 +1,290 @@
+body{
+    font-family: 'Inter', sans-serif;
+    line-height: 1.4;
+}
+/* Navigation Bar */
+
+.nav-body{
+  padding: 0.75% 27.25%;
+  align-items: center;
+  font-weight: 800;
+  font-size: 75%;
+}
+.nav-item{
+  padding: 0 7.75%;
+}
+.star{
+  padding: 0 17.25%;
+}
+/* Title */
+
+.title{
+  margin: 0 20px;
+  padding: 110px 24px 24px;
+  border-radius: 40px;
+  background-color: #131315;
+  color: white;
+}
+.title h1{
+  font-weight: 800;
+  font-size: 350%;
+  padding: 0 25% 1% ;
+  text-align: center;
+}
+.title p{
+  padding: 0 22% 3%;
+  color: rgb(184, 184, 184);
+  text-align: center;
+}
+/* Button Section */
+
+.contact-btn {
+  position: relative;
+  top: -20px;
+  left: 40%;
+  font-family: 'General Sans', sans-serif;
+  width: 220px;
+  height: 60px;
+  background: linear-gradient(90deg, rgb(255, 146, 104) 0%, rgb(249, 92, 31) 100%);
+  opacity: 1;
+  color: white;
+  line-height: 60px;
+  font-size: 24px;
+  border-radius: 40px;
+}
+.contact-btn .button{
+  margin: 1px 5px 0 5px;
+  height: 43px;
+  border-radius: 40px;
+  background: linear-gradient(to right, rgb(255, 146, 104) 0%, rgb(249, 92, 31) 50%, white 50%) left;
+  opacity: 1;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+.contact-btn .button:hover{
+  background-color: white;
+  color: rgb(249, 92, 31);
+  background-position: right;
+}
+.button .arrow{
+  width: 20%;
+  height: 36px;
+  border-radius: 80px;
+  position: relative;
+  top: -62px;
+  right: -70px;
+}
+.text{
+  height: 60px;
+  padding-left: 5px;
+  position: relative;
+  top: -7px;
+}
+.content-text{
+  width: 80%;
+  transition-duration: 0.5s;
+}
+.content-text:hover{
+  transform: translateX(4%);
+  transition-duration: 0.5s;
+}
+/* Title Project Heading */
+
+.project-heading{
+  font-weight: 500;
+  font-size: 50px;
+  color: #bcbcc2;
+}
+/* Title Image Section */
+
+.title img{
+  width: 47%;
+  height: 420px;
+  border-radius: 10%;
+  transition: 0.3s ease-in-out;
+}
+.row{
+  font-family: 'General Sans', sans-serif;
+  font-weight: 600;
+  padding-top: 40px;
+  padding-left: 45px;
+  display: flex;
+  gap: 20px;
+}
+.title .project-1:hover{
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+.title .project-2:hover{
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+/* About Section */
+
+#about-section{
+  padding: 40px 60px;
+  font-family: "General Sans", sans-serif;
+}
+.about-content img{
+  padding-top: 12%;
+  width: 20%;
+}
+.about-content{
+  display: flex;
+  gap: 30%;
+}
+.about-content h3{
+  font-size: 250%;
+  font-weight: 500;
+}
+#about-section h4{
+  color: rgb(184, 184, 184);
+}
+/* Skills Section */
+
+#skill-section{
+  margin: 0 20px;
+  padding: 110px 24px 24px;
+  border-radius: 40px;
+  background-color: #131315;
+  color: white;
+}
+.skill-content{
+  font-family: "General Sans", sans-serif;
+  text-align: center;
+}
+.skill-content p{
+  color: rgb(184, 184, 184);
+  letter-spacing: 7px;
+  font-weight: 300;
+  font-size: 17px;
+  padding-bottom: 8px;
+}
+.skills h2{
+  font-weight: 500;
+  font-size: 90px;
+  padding: 8px 0;
+}
+
+/* Project Section */
+
+.projects{
+  font-family: "General Sans", sans-serif;
+}
+.projects p{
+  color: rgb(184, 184, 184);
+  letter-spacing: 7px;
+  font-weight: 300;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+/* Slick Buttons */
+
+.slick-prev{
+  position: relative;
+  left: 80%;
+  width: 80px;
+  height: 80px;
+}
+.slick-next{
+  position: absolute;
+  top: 0;
+  left:87%;
+  width: 80px;
+  height: 80px;
+}
+.btn{
+  margin-bottom: 4%;
+}
+.slide img{
+  width: 50%;
+  border-radius: 20px;
+  margin-left: 25%;
+}
+.slide .proj-2{
+  width: 50%;
+  height: 625px;
+}
+
+/* Recommendation Section */
+#recommendation-section{
+  padding: 40px 60px;
+  font-family: "General Sans", sans-serif;
+  margin-bottom: 50px;
+}
+#recommendation-section p{
+  color: rgb(184, 184, 184);
+  letter-spacing: 7px;
+  font-weight: 300;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+#recommendation-section .slick-prev, #recommendation-section .slick-next{
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+/* Footer Section */
+
+#footer-section{
+  font-family: "General Sans", sans-serif;
+  margin: 0 20px;
+  padding: 110px 100px 20px;
+  border-radius: 40px;
+  background-color: #131315;
+  color: white;
+}
+#footer-section h1{
+  font-size: 100px;
+  text-align: center;
+  align-items: center;
+  padding: 30px 25%;
+  padding-bottom: 100px;
+}
+/* Button Section - Footer */
+
+#footer-section .contact-btn{
+  position: relative;
+  top: -80px;
+  left: 40%;
+}
+/* Line Break Section*/
+
+hr{
+  
+  color: rgb(184, 184, 184);
+}
+/* Media Part */
+
+.media-part{
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  margin: 60px 0 80px;
+}
+.media-part img{
+  width: 18%;
+  margin-right: 100px;
+}
+.media-part ul{
+  list-style-type: none;
+}
+.media-part h4{
+  margin-bottom: 18px;
+}
+.media-part li{
+  color: rgb(184, 184, 184);
+  margin: 10px 0;
+}
+/* Copyright Part */
+
+.copyright{
+  color: rgb(84,84,93);
+  font-size: 18px;
+  line-height: 150%;
+  padding-top: 10px;
+  align-items: center;
+  text-align: center;
+}
